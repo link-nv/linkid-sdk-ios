@@ -1,4 +1,6 @@
-linkid-sdk-ios
+linkID iOS SDK
 ==============
 
-linkID iOS SDK
+Contains some utility classes for integrating linkID in iOS apps.
+
+
