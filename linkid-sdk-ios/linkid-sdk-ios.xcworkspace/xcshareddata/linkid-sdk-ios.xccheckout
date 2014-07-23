@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>B22DCC77-AF2B-4A38-BADC-9B8C7EF0E3D8</string>
+	<key>IDESourceControlProjectName</key>
+	<string>linkid-sdk-ios</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>DF9681D3-DC14-4A46-AB07-1137D32F1AEE</key>
+		<string>ssh://github.com/link-nv/linkid-sdk-ios.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>linkid-sdk-ios/linkid-sdk-ios.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>DF9681D3-DC14-4A46-AB07-1137D32F1AEE</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>ssh://github.com/link-nv/linkid-sdk-ios.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>DF9681D3-DC14-4A46-AB07-1137D32F1AEE</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>DF9681D3-DC14-4A46-AB07-1137D32F1AEE</string>
+			<key>IDESourceControlWCCName</key>
+			<string>linkid-sdk-ios</string>
+		</dict>
+	</array>
+</dict>
+</plist>

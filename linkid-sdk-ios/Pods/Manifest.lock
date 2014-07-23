@@ -1,0 +1,10 @@
+PODS:
+  - Base64nl (1.2)
+
+DEPENDENCIES:
+  - Base64nl (~> 1.2)
+
+SPEC CHECKSUMS:
+  Base64nl: 98b890ea8e2131561ea6aa0f2039ef82c35d47bf
+
+COCOAPODS: 0.33.1

@@ -1,0 +1,380 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		52C1A6D758B848F38D5E432C /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C0AC74F7AEF24BA4AAF3633C /* libPods.a */; };
+		F7D38878197FD8EE0041AB52 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F7D38877197FD8EE0041AB52 /* Foundation.framework */; };
+		F7D388A5197FDB500041AB52 /* LinkIDButton.m in Sources */ = {isa = PBXBuildFile; fileRef = F7D388A4197FDB500041AB52 /* LinkIDButton.m */; };
+		F7D388A9197FDD5E0041AB52 /* NSString+LinkIDPaymentState.m in Sources */ = {isa = PBXBuildFile; fileRef = F7D388A8197FDD5E0041AB52 /* NSString+LinkIDPaymentState.m */; };
+		F7D388AC197FDEAE0041AB52 /* LinkIDSessionState.m in Sources */ = {isa = PBXBuildFile; fileRef = F7D388AB197FDEAE0041AB52 /* LinkIDSessionState.m */; };
+		F7D388AF197FDF190041AB52 /* LinkIDSession.m in Sources */ = {isa = PBXBuildFile; fileRef = F7D388AE197FDF190041AB52 /* LinkIDSession.m */; };
+		F7D388B2197FDF930041AB52 /* LinkIDXCallback.m in Sources */ = {isa = PBXBuildFile; fileRef = F7D388B1197FDF930041AB52 /* LinkIDXCallback.m */; };
+		F7D388B5197FE02C0041AB52 /* NSURL+LinkIDXCallback.m in Sources */ = {isa = PBXBuildFile; fileRef = F7D388B4197FE02C0041AB52 /* NSURL+LinkIDXCallback.m */; };
+		F7D388B8197FE3B90041AB52 /* LinkIDUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = F7D388B7197FE3B90041AB52 /* LinkIDUtil.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		F7D38872197FD8EE0041AB52 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		63030ED3DECD47CD9C121E1B /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = "<group>"; };
+		C0AC74F7AEF24BA4AAF3633C /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		F7D38874197FD8EE0041AB52 /* liblinkid-sdk-ios.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "liblinkid-sdk-ios.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F7D38877197FD8EE0041AB52 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		F7D3887B197FD8EE0041AB52 /* linkid-sdk-ios-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "linkid-sdk-ios-Prefix.pch"; sourceTree = "<group>"; };
+		F7D38885197FD8EE0041AB52 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		F7D38888197FD8EE0041AB52 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		F7D3889F197FDB200041AB52 /* arrowBack.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = arrowBack.png; sourceTree = "<group>"; };
+		F7D388A0197FDB200041AB52 /* arrowBack@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "arrowBack@2x.png"; sourceTree = "<group>"; };
+		F7D388A1197FDB200041AB52 /* linkid_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = linkid_icon.png; sourceTree = "<group>"; };
+		F7D388A2197FDB200041AB52 /* linkid_icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "linkid_icon@2x.png"; sourceTree = "<group>"; };
+		F7D388A3197FDB500041AB52 /* LinkIDButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LinkIDButton.h; sourceTree = "<group>"; };
+		F7D388A4197FDB500041AB52 /* LinkIDButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LinkIDButton.m; sourceTree = "<group>"; };
+		F7D388A7197FDD5E0041AB52 /* NSString+LinkIDPaymentState.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+LinkIDPaymentState.h"; sourceTree = "<group>"; };
+		F7D388A8197FDD5E0041AB52 /* NSString+LinkIDPaymentState.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+LinkIDPaymentState.m"; sourceTree = "<group>"; };
+		F7D388AA197FDEAE0041AB52 /* LinkIDSessionState.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LinkIDSessionState.h; sourceTree = "<group>"; };
+		F7D388AB197FDEAE0041AB52 /* LinkIDSessionState.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LinkIDSessionState.m; sourceTree = "<group>"; };
+		F7D388AD197FDF190041AB52 /* LinkIDSession.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LinkIDSession.h; sourceTree = "<group>"; };
+		F7D388AE197FDF190041AB52 /* LinkIDSession.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LinkIDSession.m; sourceTree = "<group>"; };
+		F7D388B0197FDF930041AB52 /* LinkIDXCallback.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LinkIDXCallback.h; sourceTree = "<group>"; };
+		F7D388B1197FDF930041AB52 /* LinkIDXCallback.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LinkIDXCallback.m; sourceTree = "<group>"; };
+		F7D388B3197FE02C0041AB52 /* NSURL+LinkIDXCallback.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSURL+LinkIDXCallback.h"; sourceTree = "<group>"; };
+		F7D388B4197FE02C0041AB52 /* NSURL+LinkIDXCallback.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSURL+LinkIDXCallback.m"; sourceTree = "<group>"; };
+		F7D388B6197FE3B90041AB52 /* LinkIDUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LinkIDUtil.h; sourceTree = "<group>"; };
+		F7D388B7197FE3B90041AB52 /* LinkIDUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LinkIDUtil.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F7D38871197FD8EE0041AB52 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F7D38878197FD8EE0041AB52 /* Foundation.framework in Frameworks */,
+				52C1A6D758B848F38D5E432C /* libPods.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F7D3886B197FD8EE0041AB52 = {
+			isa = PBXGroup;
+			children = (
+				F7D38879197FD8EE0041AB52 /* linkid-sdk-ios */,
+				F7D38876197FD8EE0041AB52 /* Frameworks */,
+				F7D38875197FD8EE0041AB52 /* Products */,
+				63030ED3DECD47CD9C121E1B /* Pods.xcconfig */,
+			);
+			sourceTree = "<group>";
+		};
+		F7D38875197FD8EE0041AB52 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F7D38874197FD8EE0041AB52 /* liblinkid-sdk-ios.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F7D38876197FD8EE0041AB52 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F7D38877197FD8EE0041AB52 /* Foundation.framework */,
+				F7D38885197FD8EE0041AB52 /* XCTest.framework */,
+				F7D38888197FD8EE0041AB52 /* UIKit.framework */,
+				C0AC74F7AEF24BA4AAF3633C /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F7D38879197FD8EE0041AB52 /* linkid-sdk-ios */ = {
+			isa = PBXGroup;
+			children = (
+				F7D388A6197FDD4C0041AB52 /* Util */,
+				F7D3889E197FDAE30041AB52 /* UI */,
+				F7D3889D197FDADC0041AB52 /* Images */,
+				F7D3887A197FD8EE0041AB52 /* Supporting Files */,
+			);
+			path = "linkid-sdk-ios";
+			sourceTree = "<group>";
+		};
+		F7D3887A197FD8EE0041AB52 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F7D3887B197FD8EE0041AB52 /* linkid-sdk-ios-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F7D3889D197FDADC0041AB52 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				F7D3889F197FDB200041AB52 /* arrowBack.png */,
+				F7D388A0197FDB200041AB52 /* arrowBack@2x.png */,
+				F7D388A1197FDB200041AB52 /* linkid_icon.png */,
+				F7D388A2197FDB200041AB52 /* linkid_icon@2x.png */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
+		F7D3889E197FDAE30041AB52 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				F7D388A3197FDB500041AB52 /* LinkIDButton.h */,
+				F7D388A4197FDB500041AB52 /* LinkIDButton.m */,
+			);
+			name = UI;
+			sourceTree = "<group>";
+		};
+		F7D388A6197FDD4C0041AB52 /* Util */ = {
+			isa = PBXGroup;
+			children = (
+				F7D388A7197FDD5E0041AB52 /* NSString+LinkIDPaymentState.h */,
+				F7D388A8197FDD5E0041AB52 /* NSString+LinkIDPaymentState.m */,
+				F7D388AA197FDEAE0041AB52 /* LinkIDSessionState.h */,
+				F7D388AB197FDEAE0041AB52 /* LinkIDSessionState.m */,
+				F7D388AD197FDF190041AB52 /* LinkIDSession.h */,
+				F7D388AE197FDF190041AB52 /* LinkIDSession.m */,
+				F7D388B0197FDF930041AB52 /* LinkIDXCallback.h */,
+				F7D388B1197FDF930041AB52 /* LinkIDXCallback.m */,
+				F7D388B3197FE02C0041AB52 /* NSURL+LinkIDXCallback.h */,
+				F7D388B4197FE02C0041AB52 /* NSURL+LinkIDXCallback.m */,
+				F7D388B6197FE3B90041AB52 /* LinkIDUtil.h */,
+				F7D388B7197FE3B90041AB52 /* LinkIDUtil.m */,
+			);
+			name = Util;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F7D38873197FD8EE0041AB52 /* linkid-sdk-ios */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F7D38897197FD8EE0041AB52 /* Build configuration list for PBXNativeTarget "linkid-sdk-ios" */;
+			buildPhases = (
+				1192398E41DA4B1682DD8CE0 /* Check Pods Manifest.lock */,
+				F7D38870197FD8EE0041AB52 /* Sources */,
+				F7D38871197FD8EE0041AB52 /* Frameworks */,
+				F7D38872197FD8EE0041AB52 /* CopyFiles */,
+				B31AD8BEC04C42B9A38DC7BD /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "linkid-sdk-ios";
+			productName = "linkid-sdk-ios";
+			productReference = F7D38874197FD8EE0041AB52 /* liblinkid-sdk-ios.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F7D3886C197FD8EE0041AB52 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Lin-k N.V.";
+			};
+			buildConfigurationList = F7D3886F197FD8EE0041AB52 /* Build configuration list for PBXProject "linkid-sdk-ios" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = F7D3886B197FD8EE0041AB52;
+			productRefGroup = F7D38875197FD8EE0041AB52 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F7D38873197FD8EE0041AB52 /* linkid-sdk-ios */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1192398E41DA4B1682DD8CE0 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		B31AD8BEC04C42B9A38DC7BD /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F7D38870197FD8EE0041AB52 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F7D388B8197FE3B90041AB52 /* LinkIDUtil.m in Sources */,
+				F7D388A5197FDB500041AB52 /* LinkIDButton.m in Sources */,
+				F7D388B5197FE02C0041AB52 /* NSURL+LinkIDXCallback.m in Sources */,
+				F7D388B2197FDF930041AB52 /* LinkIDXCallback.m in Sources */,
+				F7D388AF197FDF190041AB52 /* LinkIDSession.m in Sources */,
+				F7D388AC197FDEAE0041AB52 /* LinkIDSessionState.m in Sources */,
+				F7D388A9197FDD5E0041AB52 /* NSString+LinkIDPaymentState.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		F7D38895197FD8EE0041AB52 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		F7D38896197FD8EE0041AB52 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F7D38898197FD8EE0041AB52 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 63030ED3DECD47CD9C121E1B /* Pods.xcconfig */;
+			buildSettings = {
+				DSTROOT = /tmp/linkid_sdk_ios.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "linkid-sdk-ios/linkid-sdk-ios-Prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_LDFLAGS = "$(inherited)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		F7D38899197FD8EE0041AB52 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 63030ED3DECD47CD9C121E1B /* Pods.xcconfig */;
+			buildSettings = {
+				DSTROOT = /tmp/linkid_sdk_ios.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "linkid-sdk-ios/linkid-sdk-ios-Prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_LDFLAGS = "$(inherited)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F7D3886F197FD8EE0041AB52 /* Build configuration list for PBXProject "linkid-sdk-ios" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F7D38895197FD8EE0041AB52 /* Debug */,
+				F7D38896197FD8EE0041AB52 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F7D38897197FD8EE0041AB52 /* Build configuration list for PBXNativeTarget "linkid-sdk-ios" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F7D38898197FD8EE0041AB52 /* Debug */,
+				F7D38899197FD8EE0041AB52 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F7D3886C197FD8EE0041AB52 /* Project object */;
+}
