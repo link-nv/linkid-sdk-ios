@@ -107,13 +107,6 @@
     
     self.image = [UIImage imageNamed:@"arrowBack"];
     [self configureMain];
-    
-    // position for ios6 vs ios7
-    if (IS_IOS7) {
-        self.frame = CGRectMake(8, 28, 36, 36);
-    } else {
-        self.frame = CGRectMake(8, 8, 36, 36);
-    }
 }
 
 - (void) configureLogo {
