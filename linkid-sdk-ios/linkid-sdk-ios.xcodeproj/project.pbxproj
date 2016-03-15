@@ -7,12 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		52C1A6D758B848F38D5E432C /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C0AC74F7AEF24BA4AAF3633C /* libPods.a */; };
+		86F4F187894D47617677A68A /* libPods-linkid-sdk-ios.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1F9C49CCBB4AFD023A415237 /* libPods-linkid-sdk-ios.a */; };
+		F76EBA9C1C98054600FF9BC7 /* LinkIDWSController.m in Sources */ = {isa = PBXBuildFile; fileRef = F76EBA9B1C98054600FF9BC7 /* LinkIDWSController.m */; };
+		F76EBA9F1C9806BF00FF9BC7 /* LinkIDAuthSession.m in Sources */ = {isa = PBXBuildFile; fileRef = F76EBA9E1C9806BF00FF9BC7 /* LinkIDAuthSession.m */; };
+		F76EBAA21C9806E400FF9BC7 /* LinkIDQRInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = F76EBAA11C9806E400FF9BC7 /* LinkIDQRInfo.m */; };
+		F76EBAA61C98083C00FF9BC7 /* LinkIDAuthPollResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = F76EBAA51C98083C00FF9BC7 /* LinkIDAuthPollResponse.m */; };
 		F7D38878197FD8EE0041AB52 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F7D38877197FD8EE0041AB52 /* Foundation.framework */; };
 		F7D388A5197FDB500041AB52 /* LinkIDButton.m in Sources */ = {isa = PBXBuildFile; fileRef = F7D388A4197FDB500041AB52 /* LinkIDButton.m */; };
-		F7D388A9197FDD5E0041AB52 /* NSString+LinkIDPaymentState.m in Sources */ = {isa = PBXBuildFile; fileRef = F7D388A8197FDD5E0041AB52 /* NSString+LinkIDPaymentState.m */; };
-		F7D388AC197FDEAE0041AB52 /* LinkIDSessionState.m in Sources */ = {isa = PBXBuildFile; fileRef = F7D388AB197FDEAE0041AB52 /* LinkIDSessionState.m */; };
-		F7D388AF197FDF190041AB52 /* LinkIDSession.m in Sources */ = {isa = PBXBuildFile; fileRef = F7D388AE197FDF190041AB52 /* LinkIDSession.m */; };
 		F7D388B2197FDF930041AB52 /* LinkIDXCallback.m in Sources */ = {isa = PBXBuildFile; fileRef = F7D388B1197FDF930041AB52 /* LinkIDXCallback.m */; };
 		F7D388B5197FE02C0041AB52 /* NSURL+LinkIDXCallback.m in Sources */ = {isa = PBXBuildFile; fileRef = F7D388B4197FE02C0041AB52 /* NSURL+LinkIDXCallback.m */; };
 		F7D388B8197FE3B90041AB52 /* LinkIDUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = F7D388B7197FE3B90041AB52 /* LinkIDUtil.m */; };
@@ -31,8 +32,17 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		63030ED3DECD47CD9C121E1B /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = "<group>"; };
-		C0AC74F7AEF24BA4AAF3633C /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		1F9C49CCBB4AFD023A415237 /* libPods-linkid-sdk-ios.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-linkid-sdk-ios.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		56FF3E412BB368DDB97B13DF /* Pods-linkid-sdk-ios.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-linkid-sdk-ios.debug.xcconfig"; path = "Pods/Target Support Files/Pods-linkid-sdk-ios/Pods-linkid-sdk-ios.debug.xcconfig"; sourceTree = "<group>"; };
+		6AA1E70EF4E9B6458DDCAAFF /* Pods-linkid-sdk-ios.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-linkid-sdk-ios.release.xcconfig"; path = "Pods/Target Support Files/Pods-linkid-sdk-ios/Pods-linkid-sdk-ios.release.xcconfig"; sourceTree = "<group>"; };
+		F76EBA9A1C98054600FF9BC7 /* LinkIDWSController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LinkIDWSController.h; sourceTree = "<group>"; };
+		F76EBA9B1C98054600FF9BC7 /* LinkIDWSController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LinkIDWSController.m; sourceTree = "<group>"; };
+		F76EBA9D1C9806BF00FF9BC7 /* LinkIDAuthSession.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LinkIDAuthSession.h; sourceTree = "<group>"; };
+		F76EBA9E1C9806BF00FF9BC7 /* LinkIDAuthSession.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LinkIDAuthSession.m; sourceTree = "<group>"; };
+		F76EBAA01C9806E400FF9BC7 /* LinkIDQRInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LinkIDQRInfo.h; sourceTree = "<group>"; };
+		F76EBAA11C9806E400FF9BC7 /* LinkIDQRInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LinkIDQRInfo.m; sourceTree = "<group>"; };
+		F76EBAA41C98083C00FF9BC7 /* LinkIDAuthPollResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LinkIDAuthPollResponse.h; sourceTree = "<group>"; };
+		F76EBAA51C98083C00FF9BC7 /* LinkIDAuthPollResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LinkIDAuthPollResponse.m; sourceTree = "<group>"; };
 		F7D38874197FD8EE0041AB52 /* liblinkid-sdk-ios.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "liblinkid-sdk-ios.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F7D38877197FD8EE0041AB52 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		F7D3887B197FD8EE0041AB52 /* linkid-sdk-ios-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "linkid-sdk-ios-Prefix.pch"; sourceTree = "<group>"; };
@@ -44,12 +54,6 @@
 		F7D388A2197FDB200041AB52 /* linkid_icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "linkid_icon@2x.png"; sourceTree = "<group>"; };
 		F7D388A3197FDB500041AB52 /* LinkIDButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LinkIDButton.h; sourceTree = "<group>"; };
 		F7D388A4197FDB500041AB52 /* LinkIDButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LinkIDButton.m; sourceTree = "<group>"; };
-		F7D388A7197FDD5E0041AB52 /* NSString+LinkIDPaymentState.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+LinkIDPaymentState.h"; sourceTree = "<group>"; };
-		F7D388A8197FDD5E0041AB52 /* NSString+LinkIDPaymentState.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+LinkIDPaymentState.m"; sourceTree = "<group>"; };
-		F7D388AA197FDEAE0041AB52 /* LinkIDSessionState.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LinkIDSessionState.h; sourceTree = "<group>"; };
-		F7D388AB197FDEAE0041AB52 /* LinkIDSessionState.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LinkIDSessionState.m; sourceTree = "<group>"; };
-		F7D388AD197FDF190041AB52 /* LinkIDSession.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LinkIDSession.h; sourceTree = "<group>"; };
-		F7D388AE197FDF190041AB52 /* LinkIDSession.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LinkIDSession.m; sourceTree = "<group>"; };
 		F7D388B0197FDF930041AB52 /* LinkIDXCallback.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LinkIDXCallback.h; sourceTree = "<group>"; };
 		F7D388B1197FDF930041AB52 /* LinkIDXCallback.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LinkIDXCallback.m; sourceTree = "<group>"; };
 		F7D388B3197FE02C0041AB52 /* NSURL+LinkIDXCallback.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSURL+LinkIDXCallback.h"; sourceTree = "<group>"; };
@@ -64,20 +68,44 @@
 			buildActionMask = 2147483647;
 			files = (
 				F7D38878197FD8EE0041AB52 /* Foundation.framework in Frameworks */,
-				52C1A6D758B848F38D5E432C /* libPods.a in Frameworks */,
+				86F4F187894D47617677A68A /* libPods-linkid-sdk-ios.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		E65115168815EB4D93FDA8EE /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				56FF3E412BB368DDB97B13DF /* Pods-linkid-sdk-ios.debug.xcconfig */,
+				6AA1E70EF4E9B6458DDCAAFF /* Pods-linkid-sdk-ios.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		F76EBAA31C9806ED00FF9BC7 /* auth */ = {
+			isa = PBXGroup;
+			children = (
+				F76EBA9A1C98054600FF9BC7 /* LinkIDWSController.h */,
+				F76EBA9B1C98054600FF9BC7 /* LinkIDWSController.m */,
+				F76EBA9D1C9806BF00FF9BC7 /* LinkIDAuthSession.h */,
+				F76EBA9E1C9806BF00FF9BC7 /* LinkIDAuthSession.m */,
+				F76EBAA01C9806E400FF9BC7 /* LinkIDQRInfo.h */,
+				F76EBAA11C9806E400FF9BC7 /* LinkIDQRInfo.m */,
+				F76EBAA41C98083C00FF9BC7 /* LinkIDAuthPollResponse.h */,
+				F76EBAA51C98083C00FF9BC7 /* LinkIDAuthPollResponse.m */,
+			);
+			name = auth;
+			sourceTree = "<group>";
+		};
 		F7D3886B197FD8EE0041AB52 = {
 			isa = PBXGroup;
 			children = (
 				F7D38879197FD8EE0041AB52 /* linkid-sdk-ios */,
 				F7D38876197FD8EE0041AB52 /* Frameworks */,
 				F7D38875197FD8EE0041AB52 /* Products */,
-				63030ED3DECD47CD9C121E1B /* Pods.xcconfig */,
+				E65115168815EB4D93FDA8EE /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -95,7 +123,7 @@
 				F7D38877197FD8EE0041AB52 /* Foundation.framework */,
 				F7D38885197FD8EE0041AB52 /* XCTest.framework */,
 				F7D38888197FD8EE0041AB52 /* UIKit.framework */,
-				C0AC74F7AEF24BA4AAF3633C /* libPods.a */,
+				1F9C49CCBB4AFD023A415237 /* libPods-linkid-sdk-ios.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -103,6 +131,7 @@
 		F7D38879197FD8EE0041AB52 /* linkid-sdk-ios */ = {
 			isa = PBXGroup;
 			children = (
+				F76EBAA31C9806ED00FF9BC7 /* auth */,
 				F7D388A6197FDD4C0041AB52 /* Util */,
 				F7D3889E197FDAE30041AB52 /* UI */,
 				F7D3889D197FDADC0041AB52 /* Images */,
@@ -142,12 +171,6 @@
 		F7D388A6197FDD4C0041AB52 /* Util */ = {
 			isa = PBXGroup;
 			children = (
-				F7D388A7197FDD5E0041AB52 /* NSString+LinkIDPaymentState.h */,
-				F7D388A8197FDD5E0041AB52 /* NSString+LinkIDPaymentState.m */,
-				F7D388AA197FDEAE0041AB52 /* LinkIDSessionState.h */,
-				F7D388AB197FDEAE0041AB52 /* LinkIDSessionState.m */,
-				F7D388AD197FDF190041AB52 /* LinkIDSession.h */,
-				F7D388AE197FDF190041AB52 /* LinkIDSession.m */,
 				F7D388B0197FDF930041AB52 /* LinkIDXCallback.h */,
 				F7D388B1197FDF930041AB52 /* LinkIDXCallback.m */,
 				F7D388B3197FE02C0041AB52 /* NSURL+LinkIDXCallback.h */,
@@ -165,11 +188,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F7D38897197FD8EE0041AB52 /* Build configuration list for PBXNativeTarget "linkid-sdk-ios" */;
 			buildPhases = (
-				1192398E41DA4B1682DD8CE0 /* Check Pods Manifest.lock */,
+				B0506E278FFD2941E3C38FD5 /* Check Pods Manifest.lock */,
 				F7D38870197FD8EE0041AB52 /* Sources */,
 				F7D38871197FD8EE0041AB52 /* Frameworks */,
 				F7D38872197FD8EE0041AB52 /* CopyFiles */,
-				B31AD8BEC04C42B9A38DC7BD /* Copy Pods Resources */,
+				6DACD04480EE4AADAC995F4C /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -207,7 +230,22 @@
 /* End PBXProject section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		1192398E41DA4B1682DD8CE0 /* Check Pods Manifest.lock */ = {
+		6DACD04480EE4AADAC995F4C /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-linkid-sdk-ios/Pods-linkid-sdk-ios-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B0506E278FFD2941E3C38FD5 /* Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -222,21 +260,6 @@
 			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
-		B31AD8BEC04C42B9A38DC7BD /* Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Pods-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -244,13 +267,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F76EBA9C1C98054600FF9BC7 /* LinkIDWSController.m in Sources */,
 				F7D388B8197FE3B90041AB52 /* LinkIDUtil.m in Sources */,
 				F7D388A5197FDB500041AB52 /* LinkIDButton.m in Sources */,
+				F76EBAA21C9806E400FF9BC7 /* LinkIDQRInfo.m in Sources */,
+				F76EBAA61C98083C00FF9BC7 /* LinkIDAuthPollResponse.m in Sources */,
 				F7D388B5197FE02C0041AB52 /* NSURL+LinkIDXCallback.m in Sources */,
 				F7D388B2197FDF930041AB52 /* LinkIDXCallback.m in Sources */,
-				F7D388AF197FDF190041AB52 /* LinkIDSession.m in Sources */,
-				F7D388AC197FDEAE0041AB52 /* LinkIDSessionState.m in Sources */,
-				F7D388A9197FDD5E0041AB52 /* NSString+LinkIDPaymentState.m in Sources */,
+				F76EBA9F1C9806BF00FF9BC7 /* LinkIDAuthSession.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -327,7 +351,7 @@
 		};
 		F7D38898197FD8EE0041AB52 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 63030ED3DECD47CD9C121E1B /* Pods.xcconfig */;
+			baseConfigurationReference = 56FF3E412BB368DDB97B13DF /* Pods-linkid-sdk-ios.debug.xcconfig */;
 			buildSettings = {
 				DSTROOT = /tmp/linkid_sdk_ios.dst;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
@@ -341,7 +365,7 @@
 		};
 		F7D38899197FD8EE0041AB52 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 63030ED3DECD47CD9C121E1B /* Pods.xcconfig */;
+			baseConfigurationReference = 6AA1E70EF4E9B6458DDCAAFF /* Pods-linkid-sdk-ios.release.xcconfig */;
 			buildSettings = {
 				DSTROOT = /tmp/linkid_sdk_ios.dst;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
