@@ -22,13 +22,13 @@
     
     if (nil != dictionary) {
         
-        NSString *authenticationStateString = [dictionary valueForKeyPath:@"authenticationState"];
+        NSString *authenticationStateString = NSNullToNil([dictionary valueForKeyPath:@"authenticationState"]);
         self.authenticationState = [LinkIDAuthPollResponse authenticationStateToEnum:authenticationStateString];
 
-        NSString *paymentStateString = [dictionary valueForKeyPath:@"paymentState"];
+        NSString *paymentStateString = NSNullToNil([dictionary valueForKeyPath:@"paymentState"]);
         self.paymentState = [LinkIDAuthPollResponse paymentStateToEnum:paymentStateString];
         
-        self.paymentMenuURL = [dictionary valueForKeyPath:@"paymentMenuURL"];
+        self.paymentMenuURL = NSNullToNil([dictionary valueForKeyPath:@"paymentMenuURL"]);
     }
     
     return self;
@@ -38,7 +38,9 @@
 
 + (LinkIDAuthenticationState) authenticationStateToEnum:(NSString *)authenticationStateString {
     
-    if (0 == authenticationStateString.length) return LinkIDAuthenticationStateUnknown;
+    if(0 == authenticationStateString.length) {
+        return LinkIDAuthenticationStateUnknown;
+    }
     
     if ([authenticationStateString isEqualToString:@"STARTED"])         return LinkIDAuthenticationStateStarted;
     if ([authenticationStateString isEqualToString:@"RETRIEVED"])       return LinkIDAuthenticationStateRetrieved;
@@ -53,7 +55,9 @@
 
 + (LinkIDPaymentState) paymentStateToEnum:(NSString *)paymentStateString {
     
-    if (0 == paymentStateString.length) return LinkIDPaymentStateUnknown;
+    if(0 == paymentStateString.length) {
+        return LinkIDPaymentStateUnknown;
+    }
     
     if ([paymentStateString isEqualToString:@"STARTED"])              return LinkIDPaymentStateStarted;
     if ([paymentStateString isEqualToString:@"WAITING_FOR_UPDATE"])   return LinkIDPaymentStateWaitingForUpdate;

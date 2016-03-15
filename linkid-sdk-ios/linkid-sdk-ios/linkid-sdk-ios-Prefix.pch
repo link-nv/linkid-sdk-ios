@@ -7,4 +7,7 @@
 #ifdef __OBJC__
     #import <Foundation/Foundation.h>
 
+#define NSNullToNil(__O)                                                                        \
+({ __typeof__(__O) __o = __O; __o == (id)[NSNull null]? nil: __o; })
+
 #endif
