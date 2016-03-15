@@ -1,12 +1,12 @@
 Pod::Spec.new do |s|
   s.name         = "LinkIDSDK"
-  s.version      = "1.0.2"
+  s.version      = "1.0.3"
   s.summary      = "linkID SDK integration library."
   s.homepage     = "https://www.linkid.be"
   s.license      = { :type => 'LGPL v3', :file => 'LICENSE' }
   s.author       = { "Wim Vandenhaute" => "wim.vandenhaute@gmail.com" }
   s.platform     = :ios, '7.0'
-  s.source       = { :git => "https://github.com/link-nv/linkid-sdk-ios.git", :tag => "1.0.2" }
+  s.source       = { :git => "https://github.com/link-nv/linkid-sdk-ios.git", :tag => "1.0.3" }
  
   s.ios.deployment_target = '7.0'
   s.ios.source_files  = 'linkid-sdk-ios/linkid-sdk-ios/*.{h,m}'
