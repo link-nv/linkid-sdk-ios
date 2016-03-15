@@ -51,7 +51,7 @@ static LinkIDWSController *wsInstance;
     
     NSURL    *url       = [[NSURL URLWithString:self.restBaseURL] URLByAppendingPathComponent:@"/startAuthentication"];
     
-    [self postTo:[url absoluteString] withFormParameters:parameters completion:^(NSDictionary *responseData, NSError *error) {
+    [self get:[url absoluteString] withFormParameters:parameters completion:^(NSDictionary *responseData, NSError *error) {
 
         if (nil != error) {
             completion(nil, error);
@@ -74,7 +74,7 @@ static LinkIDWSController *wsInstance;
     
     NSURL    *url       = [[NSURL URLWithString:self.restBaseURL] URLByAppendingPathComponent:@"/pollAuthentication"];
     
-    [self postTo:[url absoluteString] withFormParameters:parameters completion:^(NSDictionary *responseData, NSError *error) {
+    [self get:[url absoluteString] withFormParameters:parameters completion:^(NSDictionary *responseData, NSError *error) {
         
         if (nil != error) {
             completion(nil, error);
@@ -88,7 +88,7 @@ static LinkIDWSController *wsInstance;
 
 #pragma mark - Helper methods
 
-- (void)    postTo:(NSString *)serverUrl
+- (void)    get:(NSString *)serverUrl
 withFormParameters:(NSDictionary *)params
         completion:(void (^)(NSDictionary *responseData, NSError *error))completion {
     
@@ -97,7 +97,7 @@ withFormParameters:(NSDictionary *)params
     // language
     [manager.requestSerializer setValue:[NSLocale preferredLanguages][0] forHTTPHeaderField:@"Accept-Language"];
     
-    [manager POST:serverUrl parameters:params
+    [manager GET:serverUrl parameters:params
           success:^(AFHTTPRequestOperation *operation, id responseObject) {
               completion(responseObject, nil);
           }
