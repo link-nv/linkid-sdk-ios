@@ -7,6 +7,7 @@
 //
 
 #import "LinkIDAuthPollResponse.h"
+#import "LinkIDUtil.h"
 
 @implementation LinkIDAuthPollResponse
 

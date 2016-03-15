@@ -7,6 +7,7 @@
 //
 
 #import "LinkIDAuthSession.h"
+#import "LinkIDUtil.h"
 
 @implementation LinkIDAuthSession
 
